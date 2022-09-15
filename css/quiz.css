@@ -145,6 +145,8 @@ body{
   margin-top: 16px; 
 }
 
+
+
 .main-inner ul li{
   border: 5px solid #EEEEEE;
   font-weight: 700;
@@ -154,9 +156,16 @@ body{
   height: 80px;
   border-radius: 8px;
   padding-left: 24px;
-  line-height: 80px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.main-arrow{
+  padding-right: 15px;
+}
+
 
 .main-quote{
   width: 984px;
